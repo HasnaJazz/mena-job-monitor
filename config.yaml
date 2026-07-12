@@ -1,0 +1,235 @@
+# MENA Job Monitor Configuration
+# Edit this file to customize your job search
+
+profile:
+  nationality: "Moroccan"
+  languages:
+    - "Arabic"
+    - "English"
+    - "French"
+  education: "MBA - University of Bradford"
+  experience_years: 10
+  fields:
+    - "Marketing"
+    - "Business Development"
+    - "Sales"
+    - "Consulting"
+  target_locations:
+    - "Spain"
+    - "Portugal"
+    - "Netherlands"
+    - "UAE"
+  visa_target: "EU Blue Card"
+
+scoring:
+  arabic_bonus: 15
+  french_bonus: 10
+  mena_bonus: 15
+  mba_bonus: 10
+  spain_location_bonus: 10
+  intern_penalty: -30
+  spanish_required_penalty: -20
+  entry_level_penalty: -15
+  sponsorship_high_bonus: 10
+  sponsorship_low_penalty: -10
+  min_score_threshold: 60
+
+companies:
+  tier_1:
+    - name: "Salesforce"
+      industry: "SaaS/CRM"
+      sponsorship: "High"
+      career_urls:
+        - "https://www.salesforce.com/company/careers/locations/emea/spain/"
+    - name: "Celonis"
+      industry: "SaaS/Process Intelligence"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://careers.celonis.com/join-us/open-positions"
+    - name: "Criteo"
+      industry: "AdTech"
+      sponsorship: "High"
+      career_urls:
+        - "https://careers.criteo.com/en/jobs/"
+    - name: "Google"
+      industry: "Technology"
+      sponsorship: "High"
+      career_urls:
+        - "https://careers.google.com/jobs/"
+    - name: "Microsoft"
+      industry: "Cloud/SaaS"
+      sponsorship: "High"
+      career_urls:
+        - "https://careers.microsoft.com/us/en/locations/spain"
+    - name: "SAP"
+      industry: "Enterprise Software"
+      sponsorship: "High"
+      career_urls:
+        - "https://jobs.sap.com/go/Spain/9008801/"
+    - name: "Oracle"
+      industry: "Enterprise Software"
+      sponsorship: "High"
+      career_urls:
+        - "https://eeho.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch"
+    - name: "Amadeus"
+      industry: "Travel Tech"
+      sponsorship: "High"
+      career_urls:
+        - "https://jobs.amadeus.com/"
+    - name: "ServiceNow"
+      industry: "SaaS/Enterprise"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://careers.servicenow.com/"
+    - name: "HubSpot"
+      industry: "SaaS/CRM"
+      sponsorship: "Low"
+      career_urls:
+        - "https://www.hubspot.com/careers"
+
+  tier_2:
+    - name: "Datadog"
+      industry: "SaaS/Observability"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://careers.datadoghq.com/madrid/"
+    - name: "Palo Alto Networks"
+      industry: "Cybersecurity"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://jobs.paloaltonetworks.com/en/location/spain-jobs/"
+    - name: "Snowflake"
+      industry: "SaaS/Data Cloud"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://careers.snowflake.com/us/en/"
+    - name: "MongoDB"
+      industry: "SaaS/Database"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://www.mongodb.com/careers"
+    - name: "Elastic"
+      industry: "SaaS/Search"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://www.elastic.co/careers"
+    - name: "Glovo"
+      industry: "Marketplace Tech"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://careers.glovoapp.com/"
+    - name: "Adobe"
+      industry: "SaaS/Creative"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://careers.adobe.com/"
+    - name: "Cisco"
+      industry: "Technology/Networking"
+      sponsorship: "High"
+      career_urls:
+        - "https://careers.cisco.com/"
+
+  tier_3:
+    - name: "Accenture"
+      industry: "Consulting"
+      sponsorship: "High"
+      career_urls:
+        - "https://www.accenture.com/us-en/careers"
+    - name: "Deloitte"
+      industry: "Consulting"
+      sponsorship: "High"
+      career_urls:
+        - "https://apply.deloitte.com/careers"
+    - name: "PwC"
+      industry: "Consulting"
+      sponsorship: "High"
+      career_urls:
+        - "https://www.pwc.com/gx/en/careers.html"
+    - name: "Capgemini"
+      industry: "Consulting"
+      sponsorship: "High"
+      career_urls:
+        - "https://www.capgemini.com/careers/"
+    - name: "Airbus"
+      industry: "Aerospace"
+      sponsorship: "High"
+      career_urls:
+        - "https://www.airbus.com/en/careers"
+    - name: "Schneider Electric"
+      industry: "Energy/Industrial"
+      sponsorship: "High"
+      career_urls:
+        - "https://www.se.com/ww/en/about-us/careers.jsp"
+    - name: "Mercedes-Benz"
+      industry: "Automotive"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://group.mercedes-benz.com/careers/"
+    - name: "SEAT/CUPRA"
+      industry: "Automotive"
+      sponsorship: "Medium"
+      career_urls:
+        - "https://www.seat.com/careers.html"
+
+keywords:
+  positive:
+    - "MENA"
+    - "Middle East"
+    - "North Africa"
+    - "MEA"
+    - "Africa"
+    - "Arabic"
+    - "EMEA"
+    - "international"
+    - "regional"
+    - "global"
+    - "expansion"
+    - "business development"
+    - "account executive"
+    - "customer success"
+    - "partner manager"
+    - "growth"
+    - "strategic"
+    - "regional marketing"
+    - "go-to-market"
+    - "channel"
+    - "market development"
+
+  negative:
+    - "intern"
+    - "internship"
+    - "student"
+    - "graduate program"
+    - "fluent spanish required"
+    - "native spanish"
+    - "spanish mandatory"
+    - "requires EU citizenship"
+    - "EU nationals only"
+
+  role_titles:
+    - "Business Development Manager"
+    - "Account Executive"
+    - "Customer Success Manager"
+    - "Regional Marketing Manager"
+    - "Growth Manager"
+    - "Partner Manager"
+    - "Strategic Partnerships"
+    - "Go-to-Market Manager"
+    - "Market Development Manager"
+    - "International Sales Manager"
+    - "Channel Manager"
+    - "Account Strategist"
+
+notification:
+  enabled: false
+  email: "your-email@example.com"
+  smtp_server: "smtp.gmail.com"
+  smtp_port: 587
+  smtp_username: "your-email@gmail.com"
+  smtp_password: "your-app-password"
+  min_score_to_notify: 75
+
+output:
+  results_dir: "./results"
+  history_file: "./job_history.json"
+  max_age_days: 30
