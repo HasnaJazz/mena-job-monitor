@@ -221,8 +221,8 @@ keywords:
     - "Account Strategist"
 
 notification:
-  enabled: false
-  email: "your-email@example.com"
+  enabled: true
+  email: "ob.hasna@gmail.com"
   smtp_server: "smtp.gmail.com"
   smtp_port: 587
   smtp_username: "your-email@gmail.com"
@@ -233,3 +233,4 @@ output:
   results_dir: "./results"
   history_file: "./job_history.json"
   max_age_days: 30
+Enable email notifications
